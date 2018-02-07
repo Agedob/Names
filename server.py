@@ -33,4 +33,13 @@ users = {
 #             print guess+1, '-', a, b, '-', len(a)+len(b)
 # monkey(users)
 
-def
+def monkey2(wens):
+    for key,value in wens.iteritems():
+        # print key
+        # print value[1]['first_name']
+        for count in range(len(wens[key])):
+            a = value[count]['first_name']
+            b = value[count]['last_name']
+            print count+1, '-', a, b, '-', len(a)+len(b)
+monkey2(users)
+# unpacks it for you.
