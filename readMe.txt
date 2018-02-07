@@ -10,6 +10,7 @@ Michael Jordan
 John Rosales
 Mark Guillen
 KB Tonel
+
 Now, given the following dictionary:
 users = {
  'Students': [
